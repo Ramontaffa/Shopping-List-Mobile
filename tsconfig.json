@@ -1,0 +1,16 @@
+{
+  "extends": "expo/tsconfig.base",
+  "compilerOptions": {
+    "jsx": "react",
+    "strict": true,
+    "paths": {
+      "@components": ["./src/components"],
+      "@utils": ["./src/utils"],
+      "@assets": ["./src/assets"],
+      "@contexts": ["./src/contexts"],
+      "@icons": ["./src/assets/icons"],
+      "@styles": ["./src/styles/theme"],
+    },
+    "types": ["@types/styled-components-react-native"]
+  }
+}
