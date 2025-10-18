@@ -39,6 +39,9 @@ module.exports = {
         foreground: 'var(--color-gray-500)'
       }
     },
+    fontFamily: {
+      inter: ['Inter_400Regular', 'Inter_500Medium', 'Inter_600SemiBold']
+    }
   },
   plugins: [],
 }
