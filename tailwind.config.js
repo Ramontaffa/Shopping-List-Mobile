@@ -34,6 +34,9 @@ module.exports = {
         'green-dark': 'var(--color-green-dark)',
         blue: 'var(--color-blue)',
         'blue-dark': 'var(--color-blue-dark)'
+        ,
+        background: 'var(--color-gray-100)',
+        foreground: 'var(--color-gray-500)'
       }
     },
   },

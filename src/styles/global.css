@@ -1,3 +1,7 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
 /* Color variables (available app-wide) */
 :root {
 	/* Cores Principais do Produto */
@@ -29,7 +33,3 @@
 	--color-blue: #7b94cb;
 	--color-blue-dark: #1a1d23;
 }
-
-@tailwind base;
-@tailwind components;
-@tailwind utilities;
