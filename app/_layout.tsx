@@ -1,12 +1,11 @@
 import { Slot, SplashScreen } from "expo-router";
 import { SafeAreaProvider } from "react-native-safe-area-context";
-import { useFonts } from "expo-font";
+import { useFonts } from "@expo-google-fonts/inter";
 import {
-  Barlow_300Light,
-  Barlow_400Regular,
-  Barlow_500Medium,
-  Barlow_600SemiBold,
-} from "@expo-google-fonts/barlow";
+  Inter_400Regular,
+  Inter_500Medium,
+  Inter_600SemiBold,
+} from "@expo-google-fonts/inter";
 import { useCallback, useEffect } from "react";
 import { ThemeProvider } from "@components";
 import "../src/styles/global.css";
@@ -20,10 +19,9 @@ const BACKGROUND_COLOR = theme.colors.background;
 
 export default function Layout() {
   const [fontsLoaded] = useFonts({
-    Barlow_300Light,
-    Barlow_400Regular,
-    Barlow_500Medium,
-    Barlow_600SemiBold,
+    Inter_400Regular,
+    Inter_500Medium,
+    Inter_600SemiBold,
   });
 
   useEffect(() => {

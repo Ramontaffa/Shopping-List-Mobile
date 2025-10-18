@@ -14,6 +14,9 @@ importers:
       '@expo-google-fonts/barlow':
         specifier: ^0.2.3
         version: 0.2.3
+      '@expo-google-fonts/inter':
+        specifier: ^0.4.2
+        version: 0.4.2
       '@react-native/assets-registry':
         specifier: ^0.75.4
         version: 0.75.5
@@ -801,6 +804,9 @@ packages:
 
   '@expo-google-fonts/barlow@0.2.3':
     resolution: {integrity: sha512-Ojp7odVuAJZvHm3Cf1snlNJt2xUenm4emgtcx1iV+eMah6vkG+1UOfNirceg/Ro94lAgz1CJEDhDJPrV4VvNHQ==}
+
+  '@expo-google-fonts/inter@0.4.2':
+    resolution: {integrity: sha512-syfiImMaDmq7cFi0of+waE2M4uSCyd16zgyWxdPOY7fN2VBmSLKEzkfbZgeOjJq61kSqPBNNtXjggiQiSD6gMQ==}
 
   '@expo/cli@0.24.22':
     resolution: {integrity: sha512-cEg6/F8ZWjoVkEwm0rXKReWbsCUROFbLFBYht+d5RzHnDwJoTX4QWJKx4m+TGNDPamRUIGw36U4z41Fvev0XmA==}
@@ -4525,6 +4531,8 @@ snapshots:
     optional: true
 
   '@expo-google-fonts/barlow@0.2.3': {}
+
+  '@expo-google-fonts/inter@0.4.2': {}
 
   '@expo/cli@0.24.22':
     dependencies:
