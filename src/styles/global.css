@@ -1,3 +1,35 @@
+/* Color variables (available app-wide) */
+:root {
+	/* Cores Principais do Produto */
+	--color-purple-light: #a881e6;
+	--color-purple: #7450ac;
+	--color-purple-dark: #523480;
+
+	/* Cores Base (Gray Scale) */
+	--color-gray-100: #fbf9fe;
+	--color-gray-200: #afabb6;
+	--color-gray-300: #252529;
+	--color-gray-400: #17171a;
+	--color-gray-500: #111112;
+	--color-gray-600: #0c0c0d;
+
+	/* Cores de Feedback (Sucesso) */
+	--color-success-light: #63b367;
+	--color-success: #3d8c43;
+
+	/* Cores de Apoio */
+	--color-pink: #db5bbf;
+	--color-pink-dark: #251622;
+	--color-orange: #e07b67;
+	--color-orange-dark: #261a17;
+	--color-yellow: #bb9f3a;
+	--color-yellow-dark: #211e12;
+	--color-green: #8cad51;
+	--color-green-dark: #1c2015;
+	--color-blue: #7b94cb;
+	--color-blue-dark: #1a1d23;
+}
+
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
